@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* ==================================
+全体に働きかける '※'
+================================== */
+*{
+  box-sizing: border-box;
+}
+
+
+/* ==================================
+基本の設定
+================================== */
+body{
+  margin: 0;
+  font-family: "游ゴシック体",YuGothic,"游ゴシック","YuGothic",sans-serif;
+  color: #666;
+  line-height: 1.8;
+  background-image: url(../img/rainbow-vortex.svg);
+
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+img{
+  max-width: 100%;
+}
+
+
+/* ==================================
+各ボックスの設定
+================================== */
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px #ddd;
+}
+.header{
+  width: 920px;
+  height: 300px;
+
+  margin-bottom: 60px;
+
+}
+.header h1{
+  font-size: 24px;
+  color: #ffa500;
+}
+.contents_wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.main{
+  width: 600px;
+}
+.content h2{
+  padding: 10px;
+  font-size: 22px;
+
+margin-top: 40px;
+
+  border-left: 8px solid #ffa500;
+  border-bottom: 1px dashed #000;
+}
+.aside{
+  width: 280px;
+  margin-top: 57px;
+}
+
+.aside h3{
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #ffa500;
+  border-bottom: 1px solid #ccc;
+}
+.aside ul{
+  margin-bottom: 30px;
+}
+.aside ul li{
+  font-size: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 20px;
+  background-color: #ffa500;
+  text-align: center;
+}
+.footer small{
+  color: #000;
+}
+/* ==================================
+色、文字サイズ
+================================== */
